@@ -1,0 +1,23 @@
+table {
+    border: 1px solid black;
+    margin: auto;
+    
+}
+input[type="button"] {
+    background-color: rgb(38, 75, 75);
+    width: 100%;
+    padding: 20px 10px;
+    color: white; 
+    font-size: 25px; 
+    font-weight: bold; 
+    border: none; 
+    border-radius: 2px;
+}
+input[type="text"] {
+    padding: 20px 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    border-color: rgb(38, 75, 75);
+    border-radius: 2px;
+}
