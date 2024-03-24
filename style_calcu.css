@@ -1,0 +1,59 @@
+table { 
+    
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: blanchedalmond;
+    
+} 
+
+input[type="button"] { 
+    width: 50px; 
+    padding: 15px 5px 15px 5px; 
+    background-color:rgb(86, 66, 37); 
+    color: white; 
+    font-size: 30px; 
+    /* font-weight: bold;  */
+    border: none; 
+    border-radius: 20px; 
+
+} 
+
+input[type="button"][value="DEL"] {
+    font-size: 22px;
+    width: 50px;
+    height: 65px;
+}
+
+input[type="button"][value="="] {
+    width: 200%;
+    background-color: rgb(203, 59, 59);
+
+}
+
+input[type="button"][value="AC"] {
+    background-color: rgb(203, 59, 59);
+    width: 200%;
+}
+
+input[type="button"][value="AC"]:hover {
+    background-color: rgb(150, 31, 31);
+}
+input[type="button"][value="="]:hover {
+    background-color: rgb(150, 31, 31);
+}
+
+input[type="button"]:hover {
+    background-color: rgb(150, 94, 10);
+}
+
+input[type="text"] { 
+    width:250px;
+    margin-bottom: 20px;
+    padding: 20px; 
+    font-size: 25px; 
+    font-weight: bold; 
+    border: none;  
+    background-color: rgb(241, 194, 123);
+    color: black;
+} 
+
